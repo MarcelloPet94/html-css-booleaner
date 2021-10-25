@@ -41,3 +41,35 @@ main {
 #content-image {
     margin-top: 32px;
 }
+
+#content-arguments p, #content-arguments ul, #content-arguments table {
+    margin-top: 32px;
+}
+
+#content-arguments p span {
+    background-color: yellow;
+}
+
+#content-arguments ul li {
+    list-style-position: inside;
+}
+
+table,th,td {
+    border-collapse: collapse;
+}
+
+#content-arguments th {
+    background-color:rgb(32,169,229);    
+} 
+
+#content-arguments th:nth-child(3) {
+    width: 50%;
+}
+
+#content-arguments tr:nth-child(2n+0) {
+    background-color:rgb(32,169,229,0.5);
+}
+
+#content-arguments table tr {
+    text-align: left;
+}
