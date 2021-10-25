@@ -73,3 +73,12 @@ table,th,td {
 #content-arguments table tr {
     text-align: left;
 }
+
+#other-arguments {
+    margin-top: 32px;
+}
+
+#other-arguments img {
+    display: block;
+    margin-top: 8px;
+}
