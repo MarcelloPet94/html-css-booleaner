@@ -4,12 +4,14 @@
 }
 
 header {
+    width: 70%;
     height: 180px;
+    margin-left: 300px;
     background-color: #4ea0fe;
     background-image: url(../img/logo.svg), url(../img/pattern.png);
     background-repeat: no-repeat, repeat-x;
-    background-position:300px 120px, 0 0;
-    background-size: 10%, 30%;
+    background-position:left bottom, top;
+    background-size: 20%, 30%;
 }
 
 main {
