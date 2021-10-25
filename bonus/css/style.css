@@ -68,7 +68,7 @@ table,th,td {
     width: 50%;
 }
 
-#content-arguments tr:nth-child(2n+0) {
+#content-arguments tbody tr:nth-child(odd) {
     background-color:rgb(32,169,229,0.5);
 }
 
